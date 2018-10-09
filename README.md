@@ -19,7 +19,7 @@ https://www.youtube.com/watch?v=3WdiG9et4-w
 ## Structure:
 
 Here is the description for most important files:
-'''
+```
 ├── input_leap_motion                Forder for Leap Motion Input
 │   ├── leap_input.py                Main program go gether input from Leap Motion
 │   ├── leap_canvas.py                Utility code to display Position of left arm
@@ -33,7 +33,7 @@ Here is the description for most important files:
      │   ├── dobot_osc_cmd.py         Utility: sort of command line to test commands
      │   └── dobot_osc_server.py     Main program that controls robot 
      └── official_sdk
-'''
+```
 
 ## Installation:
 
@@ -70,7 +70,7 @@ API (DobotDll.pro) and copied all output files into my /usr/lib
    In order for robot to work using usb cable I run lsusb command
 to check if QuinHeng... device is here and then run 
 
-   sudo chmod 777 /dev/ttyUSB0
+   `sudo chmod 777 /dev/ttyUSB0`
    
    There are 2 wekinator projects, one is to control postion of 
 robot another is to recognize 4 gestures (drag, stop, open gripper,
