@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<OSCOutputGroup>
+  <oscMessage>/wek/dobot/pos</oscMessage>
+  <hostName>localhost</hostName>
+  <outputPort>12001</outputPort>
+  <outputs class="linked-list">
+    <wekimini.osc.OSCNumericOutput>
+      <name>weki/dobot/pos_x</name>
+      <min>150.0</min>
+      <max>290.0</max>
+      <outputType>REAL</outputType>
+      <limitType>HARD</limitType>
+      <trainingDataLimitRestriction>ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>weki/dobot/pos_y</name>
+      <min>-160.0</min>
+      <max>160.0</max>
+      <outputType>REAL</outputType>
+      <limitType>HARD</limitType>
+      <trainingDataLimitRestriction>ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>weki/dobot/pos_z</name>
+      <min>-30.0</min>
+      <max>90.0</max>
+      <outputType>REAL</outputType>
+      <limitType>HARD</limitType>
+      <trainingDataLimitRestriction>ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+  </outputs>
+</OSCOutputGroup>
