@@ -19,7 +19,7 @@ https://www.youtube.com/watch?v=3WdiG9et4-w
 ## Structure:
 
 Here is the description for most important files:
-
+'''
 ├── input_leap_motion                Forder for Leap Motion Input
 │   ├── leap_input.py                Main program go gether input from Leap Motion
 │   ├── leap_canvas.py                Utility code to display Position of left arm
@@ -33,7 +33,7 @@ Here is the description for most important files:
      │   ├── dobot_osc_cmd.py         Utility: sort of command line to test commands
      │   └── dobot_osc_server.py     Main program that controls robot 
      └── official_sdk
-
+'''
 
 ## Installation:
 
@@ -43,26 +43,26 @@ Python and Dobot SDK, and Leap Motion SKD are platform independent,
 the code will not run without minor  changes,  which  you  need to 
 discover on your own (sorry for inconvinience)
 
-    Leap Motion installed  using pacaur  and  then service started 
+   Leap Motion installed  using pacaur  and  then service started 
 as described here: 
 
-    https://github.com/sthysel/leapmotion
+   https://github.com/sthysel/leapmotion
 
-    After starting Leap Motion service run Visualizer executable
+   After starting Leap Motion service run Visualizer executable
 to make sure Leap Motion is operational.
 
-    Input capture  application is written in  python 2. This is 
+   Input capture  application is written in  python 2. This is 
 due to Leap Motion SDK at the moment only works with version 2.
 
-    Quick overview of Leap Motion SDK:
+   Quick overview of Leap Motion SDK:
 
-    https://developer-archive.leapmotion.com/documentation/python/devguide/Leap_Overview.html
+   https://developer-archive.leapmotion.com/documentation/python/devguide/Leap_Overview.html
 
-    UI part created with Tkinter library, some references are 
+   UI part created with Tkinter library, some references are 
 here:
 
-    https://github.com/ChuntaoLu/PainT/blob/master/paint.py
-    http://home.wlu.edu/~lambertk/breezypythongui/graphics.html
+   https://github.com/ChuntaoLu/PainT/blob/master/paint.py
+   http://home.wlu.edu/~lambertk/breezypythongui/graphics.html
 
    Output device is Dobot robot. After installing SDK I rebuild 
 API (DobotDll.pro) and copied all output files into my /usr/lib
