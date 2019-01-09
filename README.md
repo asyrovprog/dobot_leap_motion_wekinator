@@ -2,15 +2,10 @@
 
 ## Brief
 
-   This is a simple  "space hand" (as I call it) controller for 
-Dobot Robot. It gethers input (hand pose) from LeapMotion, then
-recognizes  gestures/positions  and  process them using Machine
-Learning  algorithms  (with  use of   Wekinator software), then
-translates Wekinator  output OSC message to the robot API calls.
+This is a simple "space hand" (as I call it) controller for Dobot Robot. It gathers input (hand pose) from LeapMotion, then recognizes gestures/positions and process them using Machine Learning algorithms (with use of Wekinator software), then translates Wekinator output OSC message to the robot API calls.
+Though LeapMotion provides some gesture recognition, it is
+not used, but instead machine learning algorithms are used to do so.
 
-   Though LeapMotion provides some gesture recognition, it is  
-not used, but instead machine learning algorithms are used to
-do so.
 
 ## Video
 
