@@ -9,6 +9,7 @@ not used, but instead machine learning algorithms are used to do so.
 
 ## Video
 
+In this video I pick a strawberry and put it into a glass:
 https://www.youtube.com/watch?v=3WdiG9et4-w
 
 ## Structure:
